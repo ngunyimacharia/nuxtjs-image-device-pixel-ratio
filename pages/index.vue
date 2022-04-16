@@ -3,13 +3,13 @@
     <div class="text-center">
       <h1 class="text-lg m-10 font-bold text-xl">Managing Image Device Pixel Ratio</h1>
     </div>
-    <div 
-      v-for="(option,index) in dprOptions" 
+    <div
+      v-for="(option,index) in dprOptions"
       :key="index"
       class="grid grid-cols-2 bg-gray-100 m-10 overflow-hidden rounded-lg shadow-sm ring-1 ring-black ring-opacity-5"
     >
-      <cld-image 
-        :publicId="imagePublicId" 
+      <cld-image
+        :publicId="imagePublicId"
 
       >
       <cld-transformation height="300" width="300" crop="thumb" />
@@ -35,11 +35,3 @@ export default {
   }
 }
 </script>
-
-https://res.cloudinary.com/hackit-africa/image/upload/dpr_1.0/v1/nuxtjs-image-device-pixel-ratio/pexels-kelson-downes-1149137
-
-https://res.cloudinary.com/hackit-africa/image/upload/dpr_2.0/v1/nuxtjs-image-device-pixel-ratio/pexels-kelson-downes-1149137
-
-https://res.cloudinary.com/hackit-africa/image/upload/dpr_3.0/v1/nuxtjs-image-device-pixel-ratio/pexels-kelson-downes-1149137
-
-https://res.cloudinary.com/hackit-africa/image/upload/dpr_auto/v1/nuxtjs-image-device-pixel-ratio/pexels-kelson-downes-1149137
